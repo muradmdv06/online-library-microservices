@@ -1,0 +1,13 @@
+package letcode.book_service2.dto;
+
+import lombok.*;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class CategoryResponseDto {
+    private Long id;
+    private String name;
+}
